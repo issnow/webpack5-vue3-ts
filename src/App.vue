@@ -9,10 +9,10 @@
 </template>
 
 <script setup lang="ts">
-import smallImg from './images/lt10.png'
-import bigImg from './images/gt10kb.png'
-import './app.css'
-import './app.less'
+import smallImg from '@/images/lt10.png'
+import bigImg from '@/images/gt10kb.png'
+import '@/app.css'
+import '@/app.less'
 import {ref} from 'vue'
 console.log('NODE_ENV', process.env.NODE_ENV)
 console.log('BASE_ENV', process.env.BASE_ENV)
